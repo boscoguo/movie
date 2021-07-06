@@ -1,0 +1,28 @@
+.card {
+    border: 1px solid #000;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    .show {
+        display: block;
+    }
+    .hidden {
+        display: none;
+    }
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        &-label {
+            display: none;
+            padding-top: 5px;
+            padding-right: 10px;
+            img {
+                width: 45px;
+            }
+        }
+    }
+    &__year {
+        margin-block-start: 0em;
+        padding-right: 15px;
+        text-align: right;
+    }
+}
