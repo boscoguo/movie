@@ -5,14 +5,14 @@ import RightPanel from "../rightPanel";
 import "./container.scss";
 
 const Container = () => {
-    return (
-        <div className="containter">
-            <Router>
-                <LeftPanel />
-                <RightPanel />
-            </Router>
-        </div>
-    )
-}
+  return (
+    <div className="containter">
+      <Router>
+        <LeftPanel />
+        <RightPanel />
+      </Router>
+    </div>
+  );
+};
 
 export default Container;

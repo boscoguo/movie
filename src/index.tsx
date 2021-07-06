@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Provider } from "react-redux";
 // import { store } from './store';
-import './index.scss';
-import Container from './components/container';
-import reportWebVitals from './reportWebVitals';
+import "./index.scss";
+import Container from "./components/container";
+import reportWebVitals from "./reportWebVitals";
 import store from "./store/store";
 
 ReactDOM.render(
@@ -13,7 +13,7 @@ ReactDOM.render(
       <Container />
     </Provider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
