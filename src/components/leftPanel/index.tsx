@@ -4,14 +4,13 @@ import CardsContainer from "./cardsContainer";
 import BottomPart from "./bottomPart";
 import "./leftPanel.scss";
 
-
 const LeftPanel = () => {
-    return (
-        <div className="left">
-            <SearchBar />
-            <CardsContainer />
-            <BottomPart />
-        </div>
-    )
-}
+  return (
+    <div className="left">
+      <SearchBar />
+      <CardsContainer />
+      <BottomPart />
+    </div>
+  );
+};
 export default LeftPanel;
