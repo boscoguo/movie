@@ -52,9 +52,7 @@ const CardsContainer = () => {
         if (!card && currentItems) {
             setCard(currentItems);
         }
-    }, [])
-
-    console.log("card", card);
+    }, [card, currentItems])
 
 
 
